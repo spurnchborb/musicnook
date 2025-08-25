@@ -19,8 +19,8 @@ body {
 /* Sidebar */
 .sidebar {
   width: 220px;
-  background: linear-gradient(180deg, #d0fef5, #b9e1ff);
-  border: 3px solid #d55672;
+  background: linear-gradient(180deg, #FCC0DE, #5EFC8D);
+  border: 3px solid #473BF0;
   border-radius: 20px;
   padding: 20px;
 }
@@ -29,7 +29,7 @@ body {
   font-family: "Courier New", monospace;
   font-size: 22px;
   text-align: center;
-  color: #645dd7;
+  color: #000500;
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
@@ -48,19 +48,19 @@ body {
   display: block;
   padding: 10px 14px;
   border-radius: 12px;
-  background: #d55672;
+  background: #6c6c6c;
   border: 2px solid #e3b5c4;
   font-family: "Comic Sans MS", "Comic Neue", cursive;
   font-size: 14px;
-  color: #d0fef5;
+  color: #5EFC8D;
   font-weight: bold;
   text-decoration: none;
   transition: background 0.3s, color 0.3s, transform 0.15s;
 }
 
 .sidebar a:hover {
-  background: #ffe6f0;
-  color: #7a4c65;
+  background: #fcc0de;
+  color: #ffffff;
   transform: translateX(4px);
 }
 
@@ -73,8 +73,8 @@ body {
 
 /* Honorable mentions */
 .honorable {
-  background: linear-gradient(135deg, #bb9bb0, #9e0031);
-  border: 3px solid #c69f89;
+  background: linear-gradient(135deg, #FCC0DE, #BA3F1D);
+  border: 3px solid #473BF0;
   border-radius: 20px;
   padding: 15px;
   text-align: center;
@@ -116,19 +116,19 @@ body {
   margin-top: 5px;
   font-family: "Comic Sans MS", "Comic Neue", cursive;
   font-size: 14px;
-  color: #c08552;
+  color: #7FD1B9;
   font-weight: bold;
 }
 
 .honorable-item a {
-  color: #5c2d91;
+  color: #ebcf55;
   text-decoration: none;
   font-weight: bold;
   border-bottom: 1px dotted #d45d9f;
 }
 
 .honorable-item a:hover {
-  color: #d45d9f;
+  color: #7EB2DD;
   border-color: #5c2d91;
 }
 
@@ -181,7 +181,7 @@ body {
 }
 
 /* =================== */
-/* Polished Welcome Section */
+/* Welcome Section */
 .welcome {
   display: flex;
   flex-direction: column;
@@ -217,9 +217,10 @@ body {
   position: relative;
   z-index: 1;
   font-family: "Comic Sans MS", "Comic Neue", cursive;
-  color: #5c2d91;
+  color: #A3320B;
   margin: 0;
 }
+
 
 /* Slightly playful small image */
 .welcome img {
@@ -247,11 +248,11 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
-  background: linear-gradient(135deg, #a288a6, #d0ce7c);
+  background: linear-gradient(135deg, #C3D350, #F7A278);
   padding: 15px 25px;
   border-radius: 15px;
   border: 2px solid #4a314d;
-  box-shadow: 3px 3px 0 #7a9e7e;
+  box-shadow: 3px 3px 0 #A13D63;
 }
 
 .playing .dj {
@@ -259,19 +260,19 @@ body {
   height: auto;
   margin-bottom: 10px;
   border-radius: 10px;
-  border: 2px solid #676f54;
+  border: 2px solid #ffffff;
 }
 
 .playing p {
   font-family: "Comic Sans MS", "Comic Neue", cursive;
   font-size: 14px;
-  color: #5c2d91;
+  color: #E7F4F9;
   text-align: center;
   margin: 5px 0 0 0;
 }
 
 .playing a {
-  color: #d45d9f;
+  color: #4C191B;
   font-weight: bold;
   text-decoration: none;
   border-bottom: 1px dotted #5c2d91;
@@ -279,7 +280,7 @@ body {
 }
 
 .playing a:hover {
-  color: #7a4c65;
+  color: #e0eb86;
   border-color: #d45d9f;
   transform: translateY(-2px);
 }
